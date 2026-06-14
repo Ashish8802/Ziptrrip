@@ -176,8 +176,8 @@ Selected Line Numbers:
 Why it selects those lines:
 > means direct child.
 Inside #container:
-Line 2 is a direct child and has class box ✅
-Line 6 has class box but is inside another div (line 5), so it is not a direct child ❌
+Line 2 is a direct child and has class box 
+Line 6 has class box but is inside another div (line 5), so it is not a direct child 
 Why it does not select other lines:
 Line 6 is a grandchild, not a direct child.
 Line 10 is outside #container.
